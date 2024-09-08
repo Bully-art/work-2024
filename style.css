@@ -4,6 +4,23 @@ body {
     margin: 0;
 }
 
+li {
+    list-style: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#page, 
+header {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
 header {
     display: flex;
     align-items: center;
@@ -12,6 +29,30 @@ header {
     margin-left: auto;
     margin-right: auto;
     padding: 15px;
+}
+
+#page {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+#page aside {
+    width: 20%;
+}
+
+#page main {
+     width: 78%;
+}
+
+#page aside,
+#page main {
+    box-shadow: 0 0 4px 3px;
+    padding: 15px;
+}
+
+.product img {
+    max-width: 150px;
 }
 
 header img {
@@ -55,11 +96,8 @@ header img {
         flex-direction: column;
         text-align: center;
     }
-
-    #menu-nav li{
-
-    }
 }
+
 
 
 
