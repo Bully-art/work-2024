@@ -4,14 +4,19 @@ body {
     margin: 0;
 }
 
+body {
+    margin: 15px;
+}
+
 li {
     list-style: none;
 }
 
+
 * {
     box-sizing: border-box;
 }
-
+ 
 #page, 
 header {
     max-width: 1000px;
@@ -97,6 +102,15 @@ header img {
     justify-content: flex-start;
 
 }
+
+#sidebar-menu a {
+    display: block;
+    padding: 8px 5px;
+}
+
+#sidebar-menu a:hover {
+    background: #db0000;
+} 
 
 @media(max-width: 1060px) {
     .product {
